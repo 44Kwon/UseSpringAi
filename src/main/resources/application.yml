@@ -3,4 +3,4 @@ spring:
     openai:
       api-key: ${OPENAI_API_KEY}
       chat:
-        model: gpt-3.5-turb
+        model: gpt-3.5-turbo
