@@ -32,4 +32,10 @@ public class ChatMessage {
     public enum Role {
         USER, ASSISTANT, SYSTEM
     }
+
+    public ChatMessage(String userId, Role role, String content) {
+        this.userId = userId;
+        this.role = role;
+        this.content = content;
+    }
 }
